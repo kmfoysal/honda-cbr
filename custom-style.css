@@ -1,0 +1,10 @@
+/* Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Global CSS  */
+
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
