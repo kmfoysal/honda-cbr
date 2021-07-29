@@ -72,8 +72,11 @@ hr {
   color: #7e848c;
 }
 
-.hero-area {
+.header-bg{
   background: #264653;
+}
+
+.hero-area {
   height: 698px;
 }
 
@@ -101,16 +104,28 @@ hr {
   text-align: center;
 }
 
+.custom-card{
+    width: 20rem;
+  }
+
 .input-email {
   width: 50%;
 }
 
 /* Responsive CSS  */
 @media (max-width: 575.98px) {
+  .hero-area {
+  
+  height: 698px;
+}
   .section-title {
     font-size: 36px;
     line-height: 54px;
     margin-bottom: 2px;
+  }
+
+  .custom-card{
+    width: 18rem;
   }
 
   .input-email {
