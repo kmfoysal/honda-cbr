@@ -54,6 +54,24 @@ hr {
   color: #252b42;
 }
 
+.faq-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #383838;
+}
+
+.faq-title:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.faq-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #7e848c;
+}
+
 .hero-area {
   background: #264653;
   height: 698px;
@@ -83,11 +101,19 @@ hr {
   text-align: center;
 }
 
+.input-email {
+  width: 50%;
+}
+
 /* Responsive CSS  */
 @media (max-width: 575.98px) {
   .section-title {
     font-size: 36px;
     line-height: 54px;
     margin-bottom: 2px;
+  }
+
+  .input-email {
+    width: 100%;
   }
 }
